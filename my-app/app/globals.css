@@ -1,0 +1,118 @@
+
+#header{
+  font-size: 25px;
+}
+
+.centered {
+  display: block;
+  align-items: center;
+  height: 100vh;
+  width: fit-content;
+  margin: auto;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+body .container {
+  margin-top: auto;
+  margin-bottom: 0%;
+
+}
+
+.footer-white {
+  color: white;
+}
+.row{
+  color: #444;
+}
+
+.custom-toast-success {
+  background-color: darkgreen !important;
+  color: white !important;
+  font-size: 14px !important;
+  border-radius: 8px !important;
+  padding: 12px 20px !important;
+}
+
+.custom-toast-error {
+  background-color: darkred !important;
+  color: white !important;
+  font-size: 14px !important;
+  border-radius: 8px !important;
+  padding: 12px 20px !important;
+}
+
+.custom-toast-default {
+  background-color: #444 !important;
+  color: #fff !important;
+  font-size: 14px !important;
+  border-radius: 8px !important;
+  padding: 12px 20px !important;
+}
+.picture{
+  height: 230px;
+  width: 200px;
+  border: 2px solid black;
+  margin: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+.Box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.picture img{
+  max-height: 180px;
+  max-width: 180px;
+  
+}
+.title{
+  text-align: left;
+  font-size: 1.2em;
+  padding-left: 12px;
+  padding-top: 12px;
+  cursor: pointer;
+}.picture1{
+  height: 230px;
+  width: 200px;
+  border: 2px solid black;
+  margin: 5px;
+  
+  text-align: center;
+  cursor: pointer;
+}
+.Box1{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.picture1 img{
+  max-height: 180px;
+  max-width: 180px;
+  
+}
+.signin{
+  margin-left: 500px;
+}
+/* body{
+  background-color: #444;
+} */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
